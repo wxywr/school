@@ -29,3 +29,12 @@ img{width: 100%;}
 .button #btn:hover{color:  #48076b;background: #ff9c00;cursor: pointer;}
 .footer{width: 80px;height: 40px;margin:0 auto;position: relative;top: -50px;}
 .content span{display: none;}
+#layer{width: 100%;height: 100%;background: #333;
+	   position: fixed;top:0;left:0;z-index: 5;filter: alpha(opacity=70);
+	   opacity: 0.7;display: none;}
+.wish{width: 94%;height:190px;background: #fff;position: fixed;top: 30px;left: 3%;z-index: 6;border-radius: 10px;display: none;}
+.wish strong{background:  #48076b;color: orange;padding: 3px 8px;border-radius: 10px;position: relative;top: 10px;left: 10px;}
+.wish textarea{display: block;width: 98%;height: 100px;margin:0 auto;margin-top: 20px;border:1px solid #ccc;border-radius: 6px;text-indent: 5px; resize : none;}
+.wish #submit{width: 80px;height: 30px;border-radius: 10px;margin: 10px;}
+.wish #close{width: 50px;height: 30px;border-radius: 20px;}
+.wish #submit,#close{background: #ff9c00;border: none;font-size: 14px;font-weight: bold;cursor: pointer;}
