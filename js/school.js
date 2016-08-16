@@ -12,6 +12,8 @@ $(document).ready(function(){
 });
 
 
+
+//填写心愿
 $(document).ready(function(){
 	$(".button").click(function(){
 		$("#layer").show();
@@ -24,16 +26,30 @@ $(document).ready(function(){
 });
 
 
+
+//活动奖品
 $(document).ready(function(){
 	$(".first").click(function(){
 		$(".money").show();
 		$(this).animate({
-			height:'350'
+			height:'50%'
 		});
 		$(".two").animate({
 			height:'10%'
 		});
 		$(".moneys").hide();
+		$(".mo").hide();
+		$(".three").animate({
+			height:'10%'
+		});
+		$(".mon").hide();
+		$(".four").animate({
+			height:'10%'
+		});
+		$(".five").animate({
+			height:'10%'
+		});
+		$(".mone").hide();
 	});
 	$(".two").click(function(){
 		$(".money").hide();
@@ -41,9 +57,87 @@ $(document).ready(function(){
 			height:'10%'
 		});
 		$(".two").animate({
-			height:'350'
+			height:'50%'
 		});
 		$(".moneys").show();
+		$(".mo").hide();
+		$(".three").animate({
+			height:'10%'
+		});
+		$(".mon").hide();
+		$(".four").animate({
+			height:'10%'
+		});
+		$(".five").animate({
+			height:'10%'
+		});
+		$(".mone").hide();
+	});
+	$(".three").click(function(){
+		$(".mo").show();
+		$(".mo").animate({
+			height:'50%'
+		});
+		$(".money").hide();
+		$(".first").animate({
+			height:'10%'
+		});
+		$(".two").animate({
+			height:'10%'
+		});
+		$(".moneys").hide();
+		$(".mon").hide();
+		$(".four").animate({
+			height:'10%'
+		});
+		$(".five").animate({
+			height:'10%'
+		});
+		$(".mone").hide();
+	});
+	$(".four").click(function(){
+		$(".mon").show();
+		$(".mon").animate({
+			height:'50%'
+		});
+		$(".money").hide();
+		$(".first").animate({
+			height:'10%'
+		});
+		$(".two").animate({
+			height:'10%'
+		});
+		$(".moneys").hide();
+		$(".three").animate({
+			height:'10%'
+		});
+		$(".mo").hide();
+		$(".five").animate({
+			height:'10%'
+		});
+		$(".mone").hide();
+	});
+	$(".five").click(function(){
+		$(".mone").show();
+		$(".mone").animate({
+			height:'50%'
+		});
+		$(".money").hide();
+		$(".first").animate({
+			height:'10%'
+		});
+		$(".two").animate({
+			height:'10%'
+		});
+		$(".moneys").hide();
+		$(".three").animate({
+			height:'10%'
+		});
+		$(".mo").hide();
+		$(".four").animate({
+			height:'10%'
+		});
+		$(".mon").hide();
 	});
 });
 
