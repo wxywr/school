@@ -22,3 +22,28 @@ $(document).ready(function(){
 		$(".wish").hide();
 	});
 });
+
+
+$(document).ready(function(){
+	$(".first").click(function(){
+		$(".money").show();
+		$(this).animate({
+			height:'350'
+		});
+		$(".two").animate({
+			height:'10%'
+		});
+		$(".moneys").hide();
+	});
+	$(".two").click(function(){
+		$(".money").hide();
+		$(".first").animate({
+			height:'10%'
+		});
+		$(".two").animate({
+			height:'350'
+		});
+		$(".moneys").show();
+	});
+});
+

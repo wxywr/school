@@ -38,3 +38,4 @@ img{width: 100%;}
 .wish #submit{width: 80px;height: 30px;border-radius: 10px;margin: 10px;}
 .wish #close{width: 50px;height: 30px;border-radius: 20px;}
 .wish #submit,#close{background: #ff9c00;border: none;font-size: 14px;font-weight: bold;cursor: pointer;}
+.money,.moneys{display: none;width: 90%;margin:0 5%;}
